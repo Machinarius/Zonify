@@ -1,2 +1,2 @@
 # Adding packages
-`yarn lerna --scope @apprevention/api add --dev nodemon`
+`yarn lerna --scope @zonify/api add --dev nodemon`

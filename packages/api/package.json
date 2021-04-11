@@ -1,15 +1,15 @@
 {
-  "name": "@apprevention/api",
+  "name": "@zonify/api",
   "version": "0.0.0",
   "main": "index.js",
-  "author": "Yunerkis Leal",
+  "author": "Germán Valencia",
   "license": "MIT",
   "private": true,
   "scripts": {
     "dev": "kill-port 8080 && nodemon -e ts,js,json --delay 2.5 --watch ./ --ignore *.test.ts  --exec ts-node -r dotenv/config ./index.ts"
   },
   "dependencies": {
-    "@apprevention/configuration": "^0.0.0",
+    "@zonify/configuration": "^0.0.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1"
   },

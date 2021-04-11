@@ -1,5 +1,5 @@
 import express from "express";
-import configuration from "@apprevention/configuration";
+import configuration from "@zonify/configuration";
 
 export default () => {
   configuration.validate();

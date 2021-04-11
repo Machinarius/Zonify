@@ -1,14 +1,14 @@
 {
-  "name": "apprevention",
+  "name": "zonify",
   "version": "0.0.0",
-  "author": "Yunerkis Leal",
+  "author": "Germán Valencia",
   "private": true,
   "scripts": {
     "docker": "docker-compose up -d",
     "docker:down": "docker-compose down",
     "dev": "lerna run dev --stream",
-    "dev:api": "lerna --scope @apprevention/api run dev --stream",
-    "dev:client": "lerna --scope @apprevention/client run dev --stream"
+    "dev:api": "lerna --scope @zonify/api run dev --stream",
+    "dev:client": "lerna --scope @zonify/client run dev --stream"
   },
   "workspaces": [
     "packages/*"

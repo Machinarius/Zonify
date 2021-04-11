@@ -1,5 +1,5 @@
 import createApplication from "./server";
-import configuration from "@apprevention/configuration";
+import configuration from "@zonify/configuration";
 
 describe("Application factory", () => {
   const configValidationSpy = jest
