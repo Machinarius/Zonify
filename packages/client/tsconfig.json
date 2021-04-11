@@ -1,13 +1,15 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "target": "es5",
+    "target": "es2020",
     "module": "es6",
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
     "baseUrl": ".",
     "sourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": ["dom", "es2020"],
+    "moduleResolution": "node"
   },
   "include": ["./src/**/*"],
   "typeAcquisition": {
