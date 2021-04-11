@@ -1,9 +1,8 @@
 {
   "name": "@apprevention/client",
   "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "Germán Valencia <machinarius92@gmail.com>",
-  "homepage": "",
+  "description": "",
+  "author": "Yunerkis Leal",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -22,7 +21,6 @@
     "css-loader": "^5.2.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
-    "kill-port": "^1.6.1",
     "postcss": "^8.2.10",
     "postcss-loader": "^5.2.0",
     "sass": "^1.32.8",

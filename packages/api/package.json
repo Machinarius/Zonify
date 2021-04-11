@@ -5,10 +5,16 @@
   "author": "Yunerkis Leal",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "kill-port 8080 && nodemon -e ts,js,json --delay 2.5 --watch ./ --ignore *.test.ts  --exec ts-node ./index.ts"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "@types/express": "^4.17.11"
+    "@types/express": "^4.17.11",
+    "nodemon": "^2.0.7",
+    "kill-port": "^1.6.1",
+    "ts-node": "^9.1.1"
   }
 }
