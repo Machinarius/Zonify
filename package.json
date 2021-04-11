@@ -6,5 +6,12 @@
   "scripts": {
     "docker": "docker-compose up -d",
     "docker:down": "docker-compose down"
+  },
+  "workspaces": [
+    "api",
+    "reactClient"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
