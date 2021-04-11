@@ -1,0 +1,10 @@
+{
+  "name": "apprevention",
+  "version": "0.0.0",
+  "author": "Yunerkis Leal",
+  "private": true,
+  "scripts": {
+    "docker": "docker-compose up -d",
+    "docker:down": "docker-compose down"
+  }
+}
