@@ -1,0 +1,9 @@
+{
+  "name": "@apprevention/api",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Yunerkis Leal",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": { }
+}
