@@ -1,0 +1,41 @@
+{
+  "name": "@apprevention/client",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Germán Valencia <machinarius92@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "kill-port 9000 && webpack serve --mode development",
+    "build": "webpack --mode development",
+    "build:prod": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "kill-port": "^1.6.1",
+    "postcss": "^8.2.10",
+    "postcss-loader": "^5.2.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.1.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
