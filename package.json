@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "docker": "docker-compose up -d",
-    "docker:down": "docker-compose down"
+    "docker:down": "docker-compose down",
+    "dev:server": "ts-node ./packages/api/index.ts"
   },
   "workspaces": [
     "packages/*"
