@@ -9,7 +9,7 @@
     "dev": "lerna run dev --stream",
     "dev:api": "lerna --scope @zonify/api run dev --stream",
     "dev:client": "lerna --scope @zonify/client run dev --stream",
-    "gql": "graphql-codegen --config codegen.yml"
+    "gql:generate": "graphql-codegen --config codegen.yml"
   },
   "workspaces": [
     "packages/*"

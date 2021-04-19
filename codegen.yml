@@ -1,13 +1,15 @@
 overwrite: true
-schema: "http://localhost:8080/api"
-documents: "packages/client/src/**/*.graphql"
 generates:
   packages/client/src/generated.tsx:
+    schema: "packages/api/src/schema.graphql"
+    documents: "packages/client/src/**/*.graphql"
     plugins:
       - "typescript"
       - "typescript-operations"
       - "typescript-resolvers"
       - "typescript-react-apollo"
-  ./graphql.schema.json:
+  packages/api/src/generated.ts:
+    schema: "packages/api/src/schema.graphql"
     plugins:
-      - "introspection"
+      - "typescript"
+      - "typescript-resolvers"
